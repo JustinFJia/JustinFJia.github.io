@@ -1,0 +1,243 @@
+.navbar {
+    background-color: rgb(16, 16, 56);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.navbar a:hover {
+    color: gray;
+}
+
+#home {
+    font-weight: bold;
+    font-size: 50px;
+    height: fit-content;
+}
+
+.top-nav a {
+    font-size: xx-large;
+    margin: -40px;
+}
+
+.aboutSection {
+	display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 218, 239);
+    margin-top: 10px;
+}
+
+.aboutText {
+    width: 50%;
+    color: Black;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.mainPage {
+    margin-top: 25px;
+}
+
+img {
+    max-width:100%;
+}
+
+.portrait {
+    width: 20%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectSection {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(16, 16, 56);
+    color: white;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.proj {
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+.projectRow {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.project1 {
+    width: 40%;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+.project2 {
+    width: 30%;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+.project1:hover {
+    opacity: 0.5;
+}
+
+.project2:hover {
+    opacity: 0.5;
+}
+
+.expSection {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 239);
+    color: black;
+    margin-top: 10px;
+}
+
+.exp {
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+#resume {
+    color: rgb(218, 218, 239);
+    background-color:  rgb(16, 16, 56);
+    text-decoration: none;
+    font-size: 30px;
+    border-style: solid;
+}
+
+.expSection p {
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(16, 16, 56);
+    color: white;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+.contactSection p {
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+/* Dashboard Project */
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color:rgb(218, 218, 239);
+    margin-top: 10px;
+}
+.intro1 h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.intro1 p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.explain1 {
+    background-color:rgb(16, 16, 56);
+    color: white;
+    display: flex;
+    margin-top: 10px;
+}
+
+.imgdash {
+    width: 45%;
+}
+
+.explainText {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.explain1 h1 {
+    font-size: 50px;
+    margin-left: 35%;
+}
+
+.explain1 ol {
+    font-size: 20px;
+}
+
+.rundown {
+    background-color:rgb(218, 218, 239);
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.rundown h1 {
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.rundown ul {
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+/*Music Player*/
+.explain2 {
+    background-color:rgb(16, 16, 56);
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: red;
+    justify-content: space-between;
+}
+
+.imgmus2 {
+    width: 20%;
+}
+
+.imgmus {
+    width: 20.6%;
+}
+
+.explain2 h1 {
+    font-size: 70px;
+    margin-left: 25%;
+}
+
+.explain2 ol {
+    font-size: 30px;
+}
+
+#explain22 {
+    background-color:rgb(218, 218, 239);
+    color: black;
+}

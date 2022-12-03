@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a id="home" href="#" tabindex="0">Justin</a>
+            <div id="navigation" class="top-nav">
+                <a href="#aboutSec" tabindex="1">about</a>
+                <a href="#projectSec" tabindex="2">projects</a>
+                <a href="#expSec" tabindex="3">experience</a>
+                <a href="#contactSec" tabindex="4">contact</a>
+            </nav>
+        </div> 
+        <div class="mainPage">
+            <div class="aboutSection" id="aboutSec">
+                <div class="aboutText">
+                    <h1>About Me</h1>
+                    <p class="intro">Hello, I'm Justin!</p>
+                    <p class="paragraph">
+                        I am currently a senior studying at Northwestern University, and I study Computer Science and Psychology.
+                        My interests include Frontend Development and UI/UX design, but I also have an interest in Embedded System Design.
+                        In my free time, you can find me at Northwestern Formula Racing or playing Tetris 99 on my Nintendo Switch.
+                    </p>
+                </div>
+                <div class="portrait">
+                    <img id="myportrait" src="Additonal/JustinJia_photo.jpg" alt="Justin Jia portrait">
+                </div>
+            </div>
+            <div class="projectSection" id="projectSec">
+                <h1 class="proj">Projects</h1>
+                <div class="projectRow">
+                    <div class="project1" style="cursor: pointer;" onclick="location.href='Dashboard_Project.html'" tabindex="5">
+                        <div class="projfsae">
+                            <img id="proj_1" src="Additonal/Formula_Photo.jpg" alt="Northwestern Formula Racing">
+                        </div>
+                        <h2>Racecar Dashboard</h2>
+                        <p>UI/UX Designer for this year's car's dashboard</p>
+                    </div>
+                    <div class="project2" style="cursor: pointer;" onclick="location.href='album-project.html'" tabindex="6">
+                        <div class="musProject">
+                            <img id="proj_2" src="Additonal/Music Player.png" alt="Music Player Landing Page">
+                        </div>
+                        <h2>Music Player Project</h2>
+                        <p>Created a music player interface designed to play an album</p>
+                    </div>
+                </div>
+            </div>
+            <div class="expSection" id="expSec">
+                <div class="expText">
+                    <h1 class="exp">Experience</h1>
+                    <p>My Resume:    <a id="resume" href="Additonal/Justin Jia Resume.pdf" tabindex="7">Here</a></p>
+                </div>
+            </div>
+            <div class="contactSection" id="contactSec">
+                <div class="conText">
+                    <h1 class="contact">Contact Information</h1>
+                    <p>Email: justinjia2023@u.northwestern.edu</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
